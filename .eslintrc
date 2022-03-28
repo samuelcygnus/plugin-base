@@ -1,0 +1,16 @@
+{
+	"extends": [
+		"plugin:@wordpress/eslint-plugin/esnext",
+		"prettier",
+		"eslint:recommended"
+	],
+	"rules": {
+		"parser": "babel-eslint",
+		"indent": "error",
+		"semi": ["error", "always"],
+		"quotes": ["error", "double"]
+	},
+	"env": {
+		"browser": true
+	}
+}

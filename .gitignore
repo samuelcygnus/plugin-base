@@ -1,0 +1,17 @@
+# Specify filepatterns you want git to ignore.
+vendor
+node_modules
+dist
+
+.history
+.vscode
+
+*.rar
+*.zip
+*.sql
+*.swf
+
+error_log
+error.error_log
+
+sftp-config.*
